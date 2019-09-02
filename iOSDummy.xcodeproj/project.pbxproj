@@ -13,6 +13,7 @@
 		600BD7D0231D00C400A8D06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600BD7CF231D00C400A8D06F /* Assets.xcassets */; };
 		600BD7D3231D00C400A8D06F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600BD7D1231D00C400A8D06F /* LaunchScreen.storyboard */; };
 		600BD7DE231D00C500A8D06F /* iOSDummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600BD7DD231D00C500A8D06F /* iOSDummyTests.swift */; };
+		600BD7E9231D270500A8D06F /* FilesManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600BD7E8231D270500A8D06F /* FilesManageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		600BD7D9231D00C500A8D06F /* iOSDummyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDummyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		600BD7DD231D00C500A8D06F /* iOSDummyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDummyTests.swift; sourceTree = "<group>"; };
 		600BD7DF231D00C500A8D06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600BD7E8231D270500A8D06F /* FilesManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesManageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				600BD7C8231D00C300A8D06F /* AppDelegate.swift */,
 				600BD7CA231D00C300A8D06F /* ViewController.swift */,
+				600BD7E8231D270500A8D06F /* FilesManageViewController.swift */,
 				600BD7CC231D00C300A8D06F /* Main.storyboard */,
 				600BD7CF231D00C400A8D06F /* Assets.xcassets */,
 				600BD7D1231D00C400A8D06F /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				600BD7CB231D00C300A8D06F /* ViewController.swift in Sources */,
+				600BD7E9231D270500A8D06F /* FilesManageViewController.swift in Sources */,
 				600BD7C9231D00C300A8D06F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
